@@ -1,6 +1,6 @@
 name: Linux Test
 on: 
-  workflow_dispatch;
+  workflow_dispatch:
 jobs:
   file-create:
     name: SSH to Lightsail Server and Create File
